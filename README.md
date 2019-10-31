@@ -12,7 +12,7 @@ The OLED display is connected _via_ I2C with 4 wires: `SDA`, `SCL`, `3.3V` and
 :warning: This project requires a Raspberry/Orange Pi with
 [Pi-hole](https://pi-hole.net/) installed, the I2C bus
 enabled and Python 3. It uses the [luma.oled](https://github.com/rm-hull/luma.oled)
-module which can drive a variety of oled displays.
+module which can drive a variety of displays.
 
 ### Software requirements
 
