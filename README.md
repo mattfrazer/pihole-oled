@@ -28,10 +28,9 @@ Clone this project:
 git clone https://github.com/mattfrazer/pihole-oled.git /opt/pihole-oled
 ```
 
-Install the python dependencies:
+Install luma with pip3:
 
 ```
-cd /home/pi/pihole-oled
 sudo -H pip3 install --upgrade luma.oled
 ```
 
