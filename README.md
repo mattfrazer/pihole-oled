@@ -57,7 +57,7 @@ sudo cp pihole-oled.service /etc/systemd/system/
 Enable, then start the `pihole-oled.service`:
 
 ```
-sudo systemctl enable /etc/systemd/user/pihole-oled.service
+sudo systemctl enable pihole-oled.service
 sudo systemctl start pihole-oled.service
 ```
 
