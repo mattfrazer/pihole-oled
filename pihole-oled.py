@@ -177,4 +177,5 @@ try:
         time.sleep(sleep)
         elapsed_seconds += 1
 except (KeyboardInterrupt, SystemExit):
+    device.hide()
     print("Exiting...")
