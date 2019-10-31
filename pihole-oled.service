@@ -12,6 +12,7 @@ User=pihole
 
 WorkingDirectory=/opt/pihole-oled
 ExecStart=python3 pihole-oled.py
+ExecStop=python3 sleep-oled.py
 
 ; Always restart the script
 Restart=always
