@@ -16,7 +16,7 @@ module which can drive a variety of displays.
 
 ### Software requirements
 
-Installing the following packages on debian/ubuntu:
+Install the following packages on debian/ubuntu:
 
 ```
 sudo apt-get install python3-pip python3-setuptools python3-wheel python3-dev zlib1g-dev libfreetype6-dev libjpeg-dev build-essential libopenjp2-7 libtiff5 i2c-tools libi2c-dev
