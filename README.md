@@ -19,7 +19,7 @@ module which can drive a variety of displays.
 Install the following packages on debian/ubuntu:
 
 ```
-sudo apt-get install python3-pip python3-setuptools python3-wheel python3-dev zlib1g-dev libfreetype6-dev libjpeg-dev build-essential libopenjp2-7 libtiff5 i2c-tools libi2c-dev
+sudo apt-get install python3-pip python3-setuptools python3-wheel python3-dev python3-humanize python3-psutil python3-requests zlib1g-dev libfreetype6-dev libjpeg-dev build-essential libopenjp2-7 libtiff5 i2c-tools libi2c-dev
 ```
 ### Project installation
 
@@ -54,6 +54,7 @@ mentioned in the previous section on boot:
 sudo cp pihole-oled.service /etc/systemd/system/
 ```
 
+The service runs as the user pihole so you will need to add that user to the i2c group.
 Enable, then start the `pihole-oled.service`:
 
 ```
