@@ -10,7 +10,11 @@ from datetime import datetime
 #oled device imports
 from luma.core.interface.serial import i2c
 from luma.core.render import canvas
+##
+#Set oled display type here
+#luma.oled supports ssd1306, ssd1309, ssd1322, ssd1322_nhd, ssd1325, ssd1327, ssd1331, ssd1351, sh1106
 from luma.oled.device import ssd1306
+##
 
 #data and formatting
 import humanize
@@ -36,6 +40,7 @@ mount_point = os.getenv('PIHOLE_OLED_MOUNT_POINT', '/')
 hostname = platform.node()
 
 #Reduce contrast to prevent burn in
+#Adjust as needed
 device.contrast(5)
 
 #begin loop
